@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Sam Weeks-Contact</title>
@@ -23,37 +23,36 @@
 </div>
 </header>
 <main>
-<div class="contact-container contact">
-			<div class="card" id="contact">
+<div class="contact-container">
+		<section class="card contact-col">
 				<h2 class="subtitle">Contact:</h2>
-
-		<div class="contact-form">
 					<fieldset class="form-direction">
-						<label for="name"> First Name:</label>
-							<input type="text" id="name" name="user_name">
+						<label class="form-item" for="name"> First Name:</label>
+							<input type="text" id="f-name" name="user_name">
 
-						<label for="name">Last Name:</label>
-							<input type="text" id="name" name="username">
+						<label class="form-item" for="name">Last Name:</label>
+							<input type="text" id="l-name" name="username">
 					
-						<label for="mail"> Email:</label>
-							<input type="email" id="mail"name="user_email">
+						<label class="form-item" for="mail"> Email:</label>
+							<input type="email" id="mail" name="user_email">
 					</fieldset>
-				</div>
-			</div>
-				<div class="card ">
-					<fieldset class="contact-info">
-						<label><h2 class="subtitle reasons">Reasons For Contact:</h2></label>
+				</section>
+			
+				<section class=" card contact-col">
+					<h2 class="subtitle ">Reasons For Contact:</h2>
+					<fieldset class="contact-info form-direction">
+						<label class="form-item reasons">Please leave a brief description on why you would like to reach me:</label>
 							<textarea id="info" name="user_info">
 								
 							</textarea>
 			</fieldset>
 		
-</div>
+</section>
 </div>
 </main>
 <footer>
       <ul>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://github.com/W33K5Y?tab=repositories" target="_blank" class="social github">Github</a></li>
       </ul>
       <p class="copyright">Copyright 2020, Sam Weeks</p>
     </footer>
